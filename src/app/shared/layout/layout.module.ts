@@ -5,11 +5,13 @@ import {RouterModule} from "@angular/router";
 import { MainLayoutComponent } from './app-layouts/main-layout.component';
 import { HeaderComponent } from './header/header.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 @NgModule({
   declarations: [AuthLayoutComponent, MainLayoutComponent, HeaderComponent,NavigationComponent ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    BsDropdownModule.forRoot(),
   ]
 })
 export class LayoutModule { }
