@@ -1,1 +1,26 @@
-<img src="https://angular.io/assets/images/logos/angular/logo-nav@2x.png" alt="yourlogo" height="40" style="margin:5px 10px;">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2 col-xs-6">
+            <img src="assets/img/logo.png" alt="yourlogo" height="40" style="margin:5px 10px;">
+            
+        </div>
+        <div class="col-sm-8  hidden-sm hidden-xs">
+            <h5 class="header-text text-center"><span>Welcome, </span>Abdul baba ani kon nyo</h5>
+        </div>
+        <div class="col-sm-2 col-xs-6">
+            <div class="btn-group pull-right" dropdown>
+                <button id="button-basic" dropdownToggle type="button" class="btn btn-default dropdown-toggle"
+                        aria-controls="dropdown-basic">
+                 <img src="assets/img/male.png" height="30">
+                </button>
+                <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+                    role="menu" aria-labelledby="button-basic">
+                    <li><a routerLink="/setting/change-password"><span class="glyphicon glyphicon-lock"></span> Change Password</a></li>
+                    <li><a routerLink="/auth/login"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                 
+                </ul>
+                </div>
+        </div>
+    </div>
+</div>
+

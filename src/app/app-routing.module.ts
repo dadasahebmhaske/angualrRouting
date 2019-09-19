@@ -26,7 +26,17 @@ const routes: Routes = [
         path: "master",
         loadChildren: "./features/master/master.module#MasterModule",
         data: { pageTitle: "Master" }
-      },         
+      },   
+      {
+        path: "report",
+        loadChildren: "./features/report/report.module#ReportModule",
+
+      },    
+      {
+        path: "setting",
+        loadChildren: "./features/setting/setting.module#SettingModule",
+        
+      },     
    ]
    },
   //  {

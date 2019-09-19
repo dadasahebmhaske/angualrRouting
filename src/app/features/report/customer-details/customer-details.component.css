@@ -1,0 +1,16 @@
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.table thead tr {
+    background-color: #eee;
+}
+.tbl>thead>tr>th {
+    vertical-align: middle !important;
+    background: #607d8b63;
+    border-right: 1px solid #ededed;
+}
+.tbl > tbody > tr > td {
+    vertical-align: middle;
+}
